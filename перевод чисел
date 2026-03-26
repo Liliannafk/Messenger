@@ -1,0 +1,12 @@
+# Запрашиваем число у пользователя
+number = int(input("Введите целое число: "))
+
+# Переводим в разные системы счисления
+binary = bin(number)        # двоичная
+octal = oct(number)         # восьмеричная
+hexadecimal = hex(number)   # шестнадцатеричная
+
+# Выводим результат
+print(f"Двоичная: {binary}")
+print(f"Восьмеричная: {octal}")
+print(f"Шестнадцатеричная: {hexadecimal}")
